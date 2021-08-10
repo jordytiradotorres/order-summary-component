@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+:root {
+  box-sizing: border-box;
+  font-size: 16px; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+figure,
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  background-position: bottom 150% left 78%; }
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto; }
+
+.attribution {
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem; }
+
+.card {
+  max-width: 400px;
+  margin: 1rem auto; }
+  .card__img img {
+    border-radius: 1rem 1rem 0 0;
+    width: 100%; }
+  .card__context {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 0 0 1rem 1rem; }
+    .card__context h2 {
+      color: #1f2f56;
+      padding: 2rem 0 1rem 0;
+      font-weight: 900; }
+    .card__context p {
+      line-height: 1.8;
+      color: #7280a7;
+      margin-bottom: 1rem; }
+    .card__context .button {
+      display: block;
+      background-color: #3829e0;
+      color: #f5f7ff;
+      margin: 1rem auto;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 1rem 0;
+      width: 100%;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 15px 15px rgba(56, 41, 224, 0.2);
+      transition: all 0.2s ease; }
+      .card__context .button:hover {
+        background-color: rgba(56, 41, 224, 0.7); }
+    .card__context .cancel-order {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0.5rem 0 2rem 0;
+      color: #7280a7;
+      font-weight: 900;
+      transition: hover 0.2s ease; }
+      .card__context .cancel-order:hover {
+        color: #1f2f56; }
+  .card__plan {
+    background-color: #f5f7ff;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem; }
+    .card__plan img {
+      margin-right: 1.2rem; }
+    .card__plan h3 {
+      font-size: 1rem;
+      font-weight: 900;
+      color: #1f2f56;
+      margin-bottom: 0.3rem; }
+    .card__plan span {
+      color: #7280a7; }
+    .card__plan a {
+      margin-left: auto;
+      display: inline-block;
+      font-weight: bold;
+      color: #3829e0;
+      transition: all 0.2s ease; }
+      .card__plan a:hover {
+        text-decoration: none;
+        color: rgba(56, 41, 224, 0.7); }
+
+/*# sourceMappingURL=styles.css.map */

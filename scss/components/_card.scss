@@ -1,0 +1,98 @@
+.card {
+  max-width: 400px;
+  margin: 1rem auto;
+
+  &__img {
+    img {
+      border-radius: 1rem 1rem 0 0;
+      width: 100%;
+    }
+  }
+
+  &__context {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 0 0 1rem 1rem;
+
+    h2 {
+      color: $dark-blue;
+      padding: 2rem 0 1rem 0;
+      font-weight: 900;
+    }
+
+    p {
+      line-height: 1.8;
+      color: $desaturated-blue;
+      margin-bottom: 1rem;
+    }
+
+    .button {
+      display: block;
+      background-color: $bright-blue-color;
+      color: $very-pale-blue-color;
+      margin: 1rem auto;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 1rem 0;
+      width: 100%;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 15px 15px rgba($bright-blue-color, 0.2);
+      transition: all 0.2s ease;
+
+      &:hover {
+        background-color: rgba($bright-blue-color, 0.7);
+      }
+    }
+
+    .cancel-order {
+      display: inline-block;
+      text-decoration: none;
+      margin: 0.5rem 0 2rem 0;
+      color: $desaturated-blue;
+      font-weight: 900;
+      transition: hover 0.2s ease;
+
+      &:hover {
+        color: $dark-blue;
+      }
+    }
+  }
+
+  &__plan {
+    background-color: $very-pale-blue-color;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+
+    img {
+      margin-right: 1.2rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 900;
+      color: $dark-blue;
+      margin-bottom: 0.3rem;
+    }
+    span {
+      color: $desaturated-blue;
+    }
+
+    a {
+      margin-left: auto;
+      display: inline-block;
+      font-weight: bold;
+      color: $bright-blue-color;
+      transition: all 0.2s ease;
+
+      &:hover {
+        text-decoration: none;
+        color: rgba($bright-blue-color, 0.7);
+      }
+    }
+  }
+}
